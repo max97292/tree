@@ -1,0 +1,1 @@
+.item-container{margin-left:4em}.item{display:flex;align-items:center;gap:2;cursor:pointer;padding:1em}.item>svg{color:gray}.item>svg.expanded{color:red}.item>svg.subfolders{color:#00f}.item>svg.empty-folder{color:green}.container{padding:4em;border:1px solid black}
