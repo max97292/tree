@@ -1,0 +1,32 @@
+.item-container {
+  margin-left: 4em;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2;
+  cursor: pointer;
+  padding: 1em;
+
+  > svg {
+    color: gray;
+  }
+
+  > svg.expanded {
+    color: red;
+  }
+
+  > svg.subfolders {
+    color: blue;
+  }
+
+  > svg.empty-folder {
+    color: green;
+  }
+}
+
+.container {
+  padding: 4em;
+  border: 1px solid black;
+}
